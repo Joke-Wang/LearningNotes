@@ -48,17 +48,11 @@ __strong typeof(<#self#>) strong<#Self#> = weak<#Self#>;
 //__block的本质是将对象copy到堆区
 ~~~
 
+方案三：
 
-
-
-
-
-
-
-
-
-
-
+~~~objective-c
+//将block需要使用的参数作为block的参数传入block
+~~~
 
 
 
@@ -68,14 +62,9 @@ __strong typeof(<#self#>) strong<#Self#> = weak<#Self#>;
 
 [苹果系统：iOS开发：Block简单使用](https://www.iqiyi.com/w_19rwieo6qx.html)
 
-[]()
-
 
 
 ##### 相关参考资料
 
 [计算机中栈区，堆区，静态存储区，文字常量存储区，代码区的详细解释](https://blog.csdn.net/dotneterbj/article/details/8021200)
 
-[]()
-
-[]()
